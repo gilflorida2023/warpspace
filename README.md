@@ -1,7 +1,7 @@
 ### WarpSpace
 
 
-### WarpSpace is a Linux utility to move windows (active or inactive) between workspaces in Cinnamon (Mutter). Click a window, use an ncurses menu to pick a workspace, and it moves. It handles unlisted windows by falling back to the active window. Great for Linux Mint users managing workspaces.
+### WarpSpace is a Linux utility to move windows (active or inactive) between workspaces in Cinnamon. Click a window, use an ncurses menu to pick a workspace, and it moves the window to the proper workspace. It handles unlisted windows by falling back to the active window. Great for Linux Mint users managing workspaces.
 
 ### Prerequisites:
 #### GCC
