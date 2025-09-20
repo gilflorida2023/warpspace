@@ -31,7 +31,7 @@
 	make clean && make
 
 ### Install (user or root): 
-####Installs to /usr/local/bin/warpspace or ~/projects/bin/warpspace depending on who initiated the install. 
+#### Installs to /usr/local/bin/warpspace or ~/projects/bin/warpspace depending on who initiated the install. 
 	make install
 
 ### Add to PATH (if user install):
