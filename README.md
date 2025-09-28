@@ -27,37 +27,10 @@ This approach avoids the complexities of sub-window handling by focusing on top-
 
 1. **Clone the Repository** (if hosted on GitHub):
    ```bash
-   git clone https://github.com/yourusername/warpspace.git
+   git clone https://github.com/gilflorida2023/warpspace.git
    cd warpspace
 
-### WarpSpace
-
-
-### WarpSpace is a Linux utility to move windows (active or inactive) between workspaces in Cinnamon. Click a window, use an ncurses menu to pick a workspace, and it moves the window to the proper workspace. It handles unlisted windows by falling back to the active window. Great for Linux Mint users managing workspaces.
-
-### Prerequisites:
-#### GCC
-	sudo apt install build-essential
-
-#### libx11-dev
-	sudo apt install libx11-dev
-#### libncurses-dev
-	sudo apt install libncurses-dev
-#### wmctrl
-	sudo apt install wmctrl
-
-#### xprop (optional for debugging)
-	sudo apt install x11-utils
-#### Verify with:
-	gcc --version
-	wmctrl --version
-	xprop --version
-
-#### Note: Best for Cinnamon/Mutter; other EWMH-compliant window managers may vary.
-
-## Installation:
-### Clone or download to ~/projects/clang/warpspace
-	git clone <repository-url>
+clone <repository-url>
 	cd warpspace
 ### Build:
 	make clean && make
