@@ -10,6 +10,7 @@ INSTALL_BINARY = warpspace
 all: $(BINARY)
 
 $(BINARY): warpspace.c
+	#sudo apt install libx11-dev #warpspace.c:1:10: fatal error: X11/Xlib.h: No such file or directory: #include <X11/Xlib.h>
 	$(CC) $(CFLAGS) warpspace.c -o $(BINARY) $(LDFLAGS)
 
 install:
